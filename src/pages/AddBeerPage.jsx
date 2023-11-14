@@ -27,7 +27,7 @@ function AddBeerPage() {
 		};
 
 		axios
-			.post(`https://ih-beers-api2.herokuapp.com/beers`, requestBody)
+			.post(`https://ih-beers-api2.herokuapp.com/beers/new`, requestBody)
 			.then(() => {
 				navigate('/beers');
 			})
